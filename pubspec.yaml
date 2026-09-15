@@ -1,0 +1,21 @@
+name: flutter_mongo_realtime
+description: "Flutter integration for MongoRealtime. Provides automatic lifecycle management, offline disk cache, and reactive widgets."
+version: 1.0.0
+homepage: https://github.com/D3R50N/mongo-realtime
+
+environment:
+  sdk: ^3.0.0
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+
+  mongo_realtime: ^3.1.1
+  path_provider: ^2.1.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
